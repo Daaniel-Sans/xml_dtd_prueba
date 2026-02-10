@@ -1,0 +1,16 @@
+<!ELEMENT sales_record (date, customer, items)>
+<!ATTLIST sales_record record_id ID #REQUIRED>
+
+<!ELEMENT date (#PCDATA)>
+
+<!ELEMENT customer (customer_name, email)>
+<!ELEMENT customer_name (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+
+<!ELEMENT items (item+)>
+<!ELEMENT item (item_name, quantity, price)>
+
+<!ELEMENT item_name (#PCDATA)>
+<!ELEMENT quantity (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ATTLIST price currency CDATA "EUR">

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sales_record SYSTEM "sales_rules.dtd">
+<sales_record record_id="SR002">
+    <date>2026-02-11</date>
+    <customer>
+        <customer_name>Paco Ruiz</customer_name>
+        <email>paco_r@email.com</email>
+    </customer>
+    <items>
+        <item>
+            <item_name>Acoustic Guitar Strings</item_name>
+            <quantity>3</quantity>
+            <price>12.00</price>
+        </item>
+    </items>
+</sales_record>

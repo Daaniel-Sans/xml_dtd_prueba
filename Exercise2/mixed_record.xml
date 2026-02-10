@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sales_record SYSTEM "sales_rules.dtd" [
+    <!ENTITY store_name "Tech Central Station">
+]>
+<sales_record record_id="SR003">
+    <date>2026-02-12</date>
+    <customer>
+        <<customer_name>Benito Pérez</customer_name>
+        <email>benito_p@email.com</email>
+    </customer>
+    <items>
+        <item>
+            <item_name>Wireless Mouse</item_name>
+            <quantity>1</quantity>
+            <price currency="EUR">25.00</price>
+        </item>
+    </items>
+</sales_record>
