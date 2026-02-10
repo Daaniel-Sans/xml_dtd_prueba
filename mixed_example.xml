@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE employee_registry SYSTEM "rules.dtd" [
+    <!ENTITY company "Global Tech Solutions Inc.">
+]>
+<employee_registry>
+    <employee id="E005">
+        <name>Juana García</name>
+        <id_number>998877</id_number>
+        <position>QA Tester at &company;</position>
+        <salary>55000</salary>
+    </employee>
+</employee_registry>

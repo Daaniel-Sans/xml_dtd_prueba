@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE employee_registry [
+    <!ELEMENT employee_registry (employee+)>
+    <!ELEMENT employee (name, id_number, position, salary)>
+    <!ATTLIST employee id ID #REQUIRED>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT id_number (#PCDATA)>
+    <!ELEMENT position (#PCDATA)>
+    <!ELEMENT salary (#PCDATA)>
+]>
+<employee_registry>
+    <employee id="E001">
+        <name>Pepa Dominguez</name>
+        <id_number>123456</id_number>
+        <position>Software Engineer</position>
+        <salary>75000</salary>
+    </employee>
+    <employee id="E002">
+        <name>Francisco Ramirez</name>
+        <id_number>789012</id_number>
+        <position>Project Manager</position>
+        <salary>85000</salary>
+    </employee>
+</employee_registry>

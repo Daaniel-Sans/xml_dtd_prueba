@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE employee_registry SYSTEM "rules.dtd">
+<employee_registry>
+    <employee id="E003">
+        <name>Eusebio Herrera</name>
+        <id_number>135791</id_number>
+        <position>Data Analyst</position>
+        <salary>35000</salary>
+    </employee>
+    <employee id="E004">
+        <name>Ramiro Fernández</name>
+        <id_number>246802</id_number>
+        <position>Security Specialist</position>
+        <salary>92000</salary>
+    </employee>
+</employee_registry>

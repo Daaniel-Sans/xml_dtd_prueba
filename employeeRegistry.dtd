@@ -1,0 +1,7 @@
+<!ELEMENT employee_registry (employee+)>
+<!ELEMENT employee (name, id_number, position, salary)>
+<!ATTLIST employee id ID #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT id_number (#PCDATA)>
+<!ELEMENT position (#PCDATA)>
+<!ELEMENT salary (#PCDATA)>
