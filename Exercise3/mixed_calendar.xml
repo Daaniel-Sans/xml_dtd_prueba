@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE event_calendar SYSTEM "calendar_rules.dtd" [
+    <!ENTITY cultural_office "Ministry of Culture">
+]>
+<event_calendar>
+    <event id="EV004">
+        <title>Art Exhibition Opening</title>
+        <date>2026-10-12</date>
+        <description>Special art exhibition in the museum.</description>
+        <location>Prado Museum, Madrid</location>
+    </event>
+</event_calendar>

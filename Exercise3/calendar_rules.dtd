@@ -1,0 +1,8 @@
+<!ELEMENT event_calendar (event+)>
+<!ELEMENT event (title, date, description?, location?)>
+<!ATTLIST event id ID #REQUIRED>
+
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT location (#PCDATA)>

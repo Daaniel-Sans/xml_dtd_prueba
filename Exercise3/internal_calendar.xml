@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE event_calendar [
+    <!ELEMENT event_calendar (event+)>
+    <!ELEMENT event (title, date, description?, location?)>
+    <!ATTLIST event id ID #REQUIRED>
+    <!ELEMENT title (#PCDATA)>
+    <!ELEMENT date (#PCDATA)>
+    <!ELEMENT description (#PCDATA)>
+    <!ELEMENT location (#PCDATA)>
+]>
+<event_calendar>
+    <event id="EV001">
+        <title>Seville April Fair</title>
+        <date>2026-04-18</date>
+        <description>Traditional festival with music, dancing and horses.</description>
+        <location>Real de la Feria, Sevilla</location>
+    </event>
+    <event id="EV002">
+        <title>Pilgrimage Arrival</title>
+        <date>2026-07-25</date>
+        <location>Plaza del Obradoiro, Santiago de Compostela</location>
+    </event>
+</event_calendar>

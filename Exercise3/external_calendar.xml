@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE event_calendar SYSTEM "calendar_rules.dtd">
+<event_calendar>
+    <event id="EV003">
+        <title>Las Fallas Festival</title>
+        <date>2026-03-19</date>
+        <description>The final night of the celebration with the 'Cremà'.</description>
+        <location>Valencia, Spain</location>
+    </event>
+</event_calendar>
